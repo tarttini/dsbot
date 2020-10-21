@@ -1,24 +1,28 @@
 {
-  "name": "dsbot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tarttini/dsbot.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tarttini/dsbot/issues"
-  },
-  "homepage": "https://github.com/tarttini/dsbot#readme",
-  "dependencies": {
-    "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0"
-  }
+    "name": "dsbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0",
+        "start": "node ./src/dsbot.js",
+        "dev": "nodemon ./src/dsbot.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tarttini/dsbot.git"
+    },
+    "keywords": [],
+    "author": "Raul",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tarttini/dsbot/issues"
+    },
+    "homepage": "https://github.com/tarttini/dsbot#readme",
+    "dependencies": {
+        "discord.js": "^12.3.1",
+        "dotenv": "^8.2.0",
+        "ms": "^2.1.2",
+        "node-cron": "^2.0.3"
+    }
 }
